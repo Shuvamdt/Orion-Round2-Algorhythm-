@@ -5,10 +5,12 @@ const Hero = () => {
   return (
     <section id="Home">
       <div className=" mt-50 flex flex-col lg:flex-row justify-center items-center gap-6">
-        <div className="flex flex-col text-[100px] anton">
+        <div className="flex flex-col text-[70px] lg:text-[100px] anton">
           <p className="leading-15 text-[#EF78CF]">META</p>
           <p className="leading-40 text-[#BCF645]">HACKATHON</p>
-          <p className="leading-15 text-white text-[90px]">WEEK</p>
+          <p className="leading-15 text-white text-[60px] lg:text-[90px]">
+            WEEK
+          </p>
           <p className="text-xl inter text-[white] my-10">
             Join our Online Design Hackathon to
             <br />

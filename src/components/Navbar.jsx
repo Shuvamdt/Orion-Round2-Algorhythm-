@@ -7,7 +7,7 @@ const Navbar = () => {
         <p className="text-white text-[30px] leading-13">HACKATHON</p>
         <p className="text-[#F949C8] text-[30px] leading-0">.COM</p>
       </h1>
-      <ul className="flex justify-center items-center gap-8 inter text-white text-[15px]">
+      <ul className="hidden lg:flex justify-center items-center gap-8 inter text-white text-[15px]">
         <li>
           <a href="#Home">Home</a>
         </li>
@@ -22,7 +22,7 @@ const Navbar = () => {
         </li>
       </ul>
       <div>
-        <button className="px-4 py-3 jaro bg-[#F949C8] text-[20px] text-white">
+        <button className="px-4 py-3 jaro bg-[#F949C8] text-[15px] lg:text-[20px] text-white">
           REGISTER TODAY{" "}
         </button>
       </div>

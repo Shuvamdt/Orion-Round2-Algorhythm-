@@ -7,6 +7,10 @@ const Timetable = () => {
         <h1>
           3 DAYS
           <span>HACKATHON</span>
+          <p>
+            Connect with designers worldwide, celebrating world-class content
+            and forging connec
+          </p>
         </h1>
       </div>
     </div>
