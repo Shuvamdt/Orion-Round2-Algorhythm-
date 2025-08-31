@@ -6,7 +6,7 @@ const Navbar = () => {
     setOpen(true);
   };
   return (
-    <div className="absolute alumni flex justify-between items-center top-0 px-20 py-10 w-full">
+    <div className="absolute alumni flex justify-between items-center top-0 px-10 lg:px-20 py-10 w-full">
       <h1 className="flex flex-col">
         <p className="text-white text-[30px] leading-13">HACKATHON</p>
         <p className="text-[#F949C8] text-[30px] leading-0">.COM</p>
