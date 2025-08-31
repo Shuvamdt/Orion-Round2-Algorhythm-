@@ -1,0 +1,28 @@
+@import "tailwindcss";
+body {
+  background-color: #1f003f;
+}
+.alumni {
+  font-family: "Alumni Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.jaro {
+  font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+.anton {
+  font-family: "Anton", sans-serif;
+  font-weight: 595;
+  font-style: normal;
+}
