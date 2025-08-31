@@ -5,7 +5,7 @@ import right from "/right.png";
 const Schedule = () => {
   return (
     <section id="#Schedule">
-      <div className="flex justify-between items-center my-10 py-5">
+      <div className="flex flex-col lg:flex-row justify-between items-center my-10 py-5">
         <img src={left} alt="left" className="h-160 w-100" />
         <div className="text-center">
           <p className="text-[25px] text-[#A6CC49] font-bold">

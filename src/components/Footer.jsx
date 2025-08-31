@@ -8,7 +8,7 @@ import yt from "/youtube_logo.png";
 const Footer = () => {
   return (
     <div>
-      <div className="flex gap-10 px-15 py-10 items-end">
+      <div className="flex gap-10 px-15 py-10 items-center flex-col lg:flex-row">
         <div>
           <h1 className="alumni text-white text-[50px] leading-12">
             UNLEASH

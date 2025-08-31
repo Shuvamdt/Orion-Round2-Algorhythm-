@@ -12,7 +12,7 @@ const Speakers = () => {
           <br />
           SPEAKERS
         </h1>
-        <div className="flex gap-10 px-10 py-10 ">
+        <div className="flex gap-10 px-10 py-10 flex-col lg:flex-row">
           <div className="flex flex-col justify-center items-center anton">
             <img src={pic1} alt="sp1" className="h-100 w-80" />
             <h1 className="text-[30px] leading-8 py-4 text-white">
@@ -39,7 +39,7 @@ const Speakers = () => {
             <p className="py-2 text-[#A13695] text-[10px]">FOUNDER AT PLUN</p>
           </div>
         </div>
-        <div className="py-20 my-20 px-20 flex justify-center items-center gap-30">
+        <div className="py-20 my-20 px-20 flex flex-col lg:flex-row justify-center items-center gap-30">
           <div className="anton text-[30px] text-white flex flex-col justify-center items-center leading-10">
             <span className="text-[60px] text-[#D382DE]">4+</span>
             <br />

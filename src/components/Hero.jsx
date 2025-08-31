@@ -4,7 +4,7 @@ import image1 from "/image1.png";
 const Hero = () => {
   return (
     <section id="Home">
-      <div className=" mt-50 flex justify-center items-center gap-6">
+      <div className=" mt-50 flex flex-col lg:flex-row justify-center items-center gap-6">
         <div className="flex flex-col text-[100px] anton">
           <p className="leading-15 text-[#EF78CF]">META</p>
           <p className="leading-40 text-[#BCF645]">HACKATHON</p>
